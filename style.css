@@ -1,5 +1,7 @@
 body {
     background-color: #eeddbf;
+    font-family: 'Georgia', serif;
+
 }
 
 a {
@@ -14,10 +16,35 @@ a {
 img {
     border: 3px solid #435058;
     border-radius: 10px;
+    width: 500px;
 }
 
 .recipe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
+}
+
+hr {
+    border: 1px solid #435058;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #435058;
+    text-align: center;
+}
+
+h2 {
+    color: #435058;
+}
+
+ol li {
+    font-style: italic;
+}
+
+ul li {
+    font-style: italic;
 }
