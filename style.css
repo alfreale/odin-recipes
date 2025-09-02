@@ -3,6 +3,10 @@
     font-family: Pecita;
 }
 
+@font-face {
+    src: url("fonts/Butter_Cookies/butter-cookies.script.ttf");
+    font-family: ButterCookies;
+}
 
 body {
     background-color: #eeddbf;
@@ -45,6 +49,16 @@ img {
     display: flex;
     align-items: center;
     margin-top: 40px;
+}
+
+.recipe li {
+    font-family:  ButterCookies;
+    font-size: 28px;
+}
+
+.description {
+    font-family:  ButterCookies;
+    font-size: 28px;
 }
 
 .recipe-list li a {
